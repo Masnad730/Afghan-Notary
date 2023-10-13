@@ -1,16 +1,128 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+* {
+  box-sizing: border-box;
+}
 html,
 body {
   padding: 0;
   margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Oxygen,
-    Ubuntu, Cantarell, Fira Sans, Droid Sans, Helvetica Neue, sans-serif;
+  font-family: -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Oxygen, Ubuntu, Cantarell,
+    Fira Sans, Droid Sans, Helvetica Neue, sans-serif;
+  scroll-behavior: smooth;
+  scroll-padding-top: 168px;
 }
-
 a {
   color: inherit;
   text-decoration: none;
 }
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  @apply font-bold;
+}
+p {
+  @apply text-accents_7 text-sm lg:text-base xl:text-lg leading-relaxed;
+}
+i {
+  @apply flex items-center;
+}
+input,
+select {
+  @apply box-border text-base w-full h-12 border border-accents_4 mb-4 px-4 py-2 outline-none rounded focus:outline-none;
+}
+textarea {
+  @apply box-border text-base w-full border border-accents_4 mb-6 px-4 py-2 outline-none rounded focus:outline-none;
+}
+button {
+  @apply px-8 py-2 text-lg h-12 rounded;
+}
 
-* {
-  box-sizing: border-box;
+/* Custom Utility Classes*/
+.body-overlay__black {
+  opacity: 1;
+  visibility: visible;
+  -webkit-transition: 0.35s;
+  -o-transition: 0.35s;
+  transition: 0.35s;
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(0, 0, 0, 0.7);
+  z-index: 10;
+}
+.transition-custom {
+  transition: all 0.4s ease-in-out 0s;
+}
+.headline-side-bar span::before,
+.headline-side-bar span::after {
+  content: '';
+  position: absolute;
+  top: 50%;
+  height: 2px;
+  width: 9999px;
+  display: block;
+  margin-top: -1px;
+  background-color: #e5e5e5;
+}
+.headline-side-bar span::before {
+  right: 100%;
+  margin-right: 0.5em;
+}
+.headline-side-bar span::after {
+  left: 100%;
+  margin-left: 0.5em;
+}
+.bg-hero {
+  background-image: url('/images/backgroundoverlay.png');
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+.img-bg-frame::before {
+  @apply bg-primary_light;
+  position: absolute;
+  left: 0;
+  bottom: 0;
+  width: 100%;
+  height: 100%;
+  content: '';
+  z-index: -1;
+  -webkit-border-radius: 5px;
+  -moz-border-radius: 5px;
+  border-radius: 5px;
+  left: -12px;
+  bottom: -12px;
+}
+.notary-hero {
+  background: rgb(255, 255, 255);
+  background: linear-gradient(
+      344deg,
+      rgba(255, 255, 255, 0) 0%,
+      rgba(255, 255, 255, 0) 0%,
+      rgba(255, 255, 255, 1) 66%
+    ),
+    url('/images/notary-img-1.jpg');
+  background-position: 20% 0%;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+/* next size - tablet */
+@media (max-width: 768px) {
+  .notary-hero {
+    background-position: 20% 0%;
+  }
+}
+
+/* next size - tablet landscape and it covers desktop */
+@media (max-width: 1024px) {
+  .notary-hero {
+    background-position: 10% 0;
+  }
 }

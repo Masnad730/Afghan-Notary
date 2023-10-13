@@ -1,0 +1,62 @@
+{
+  "polyfillFiles": [
+    "static/chunks/polyfills-c67a75d1b6f99dc8.js"
+  ],
+  "devFiles": [],
+  "ampDevFiles": [],
+  "lowPriorityFiles": [
+    "static/fTXCC0KRsgOabNSjoA7Ff/_buildManifest.js",
+    "static/fTXCC0KRsgOabNSjoA7Ff/_ssgManifest.js"
+  ],
+  "rootMainFiles": [],
+  "pages": {
+    "/": [
+      "static/chunks/webpack-c491b2a411a4f8fa.js",
+      "static/chunks/framework-5f4595e5518b5600.js",
+      "static/chunks/main-faec6545c39520c0.js",
+      "static/chunks/996-aceb83aa6d5b0ab8.js",
+      "static/chunks/7-39110eba04035904.js",
+      "static/chunks/pages/index-432a8e885a370bf5.js"
+    ],
+    "/_app": [
+      "static/chunks/webpack-c491b2a411a4f8fa.js",
+      "static/chunks/framework-5f4595e5518b5600.js",
+      "static/chunks/main-faec6545c39520c0.js",
+      "static/css/51a0435d7956d488.css",
+      "static/chunks/pages/_app-a4b8b623b75cc130.js"
+    ],
+    "/_error": [
+      "static/chunks/webpack-c491b2a411a4f8fa.js",
+      "static/chunks/framework-5f4595e5518b5600.js",
+      "static/chunks/main-faec6545c39520c0.js",
+      "static/chunks/pages/_error-a4ba2246ff8fb532.js"
+    ],
+    "/about": [
+      "static/chunks/webpack-c491b2a411a4f8fa.js",
+      "static/chunks/framework-5f4595e5518b5600.js",
+      "static/chunks/main-faec6545c39520c0.js",
+      "static/chunks/996-aceb83aa6d5b0ab8.js",
+      "static/chunks/615-9b7f448a263d759b.js",
+      "static/chunks/7-39110eba04035904.js",
+      "static/chunks/pages/about-5be6453f7a1111c5.js"
+    ],
+    "/afghan-notary-services": [
+      "static/chunks/webpack-c491b2a411a4f8fa.js",
+      "static/chunks/framework-5f4595e5518b5600.js",
+      "static/chunks/main-faec6545c39520c0.js",
+      "static/chunks/996-aceb83aa6d5b0ab8.js",
+      "static/chunks/7-39110eba04035904.js",
+      "static/chunks/pages/afghan-notary-services-97481067b6281008.js"
+    ],
+    "/contact": [
+      "static/chunks/webpack-c491b2a411a4f8fa.js",
+      "static/chunks/framework-5f4595e5518b5600.js",
+      "static/chunks/main-faec6545c39520c0.js",
+      "static/chunks/996-aceb83aa6d5b0ab8.js",
+      "static/chunks/485-3df91095d9f80260.js",
+      "static/chunks/7-39110eba04035904.js",
+      "static/chunks/pages/contact-f1b205fefe80ad7c.js"
+    ]
+  },
+  "ampFirstPages": []
+}

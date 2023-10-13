@@ -1,0 +1,11 @@
+{
+  "/_document": "pages/_document.js",
+  "/about": "pages/about.html",
+  "/_app": "pages/_app.js",
+  "/contact": "pages/contact.html",
+  "/api/hello": "pages/api/hello.js",
+  "/afghan-notary-services": "pages/afghan-notary-services.html",
+  "/": "pages/index.html",
+  "/_error": "pages/_error.js",
+  "/404": "pages/404.html"
+}
